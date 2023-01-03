@@ -1,4 +1,64 @@
+* {
+    margin: 0px;
+}
+
 img {
     width: auto;
     height: 100px;
+}
+
+.header, .first-section, .footer {
+    background-color: #1f2937;
+}
+
+.links, .statement {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.second-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+li {
+    font-size: 18px;
+}
+
+.third-section {
+    background-color: #e5e7eb;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.person {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.fourth-section {
+    background-color: #3882f6;
+    color: #e5e7eb;
+}
+
+.button {
+    background-color: #3882f6;
+    color: #e5e7eb;
 }
