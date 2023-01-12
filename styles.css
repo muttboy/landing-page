@@ -10,6 +10,10 @@
 .grid-pic {
     width: 100px;
     height: auto;
+    margin: 20px;
+    border: #3882f6;
+    border-style: solid;
+    border-radius: 10px;
 }
 
 .header, .first-section, .footer {
@@ -26,14 +30,18 @@
     justify-content: space-between;
     font-size: 24px;
     color: #f9faf8;
+    padding: 20px;
 }
 
 .links {
     display: flex;
+    gap: 20px;
 }
 
 .first-section {
     display: flex;
+    justify-content: space-between;
+    padding: 20px;
 }
 
 .title {
@@ -42,6 +50,26 @@
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+}
+
+.button-1 {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-style: none;
+    border-radius: 5px;
+    font-weight: bold;
+    max-width: 90px;
+    padding: 5px;
+    margin: 10px;
+    margin-left: 0;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
 }
 
 .second-title {
@@ -54,6 +82,7 @@
 
 ul {
     display: flex;
+    padding: 0px;
 }
 
 li {
@@ -62,6 +91,7 @@ li {
     align-items: center;
     font-size: 18px;
     list-style: none;
+    padding: 20px;
 }
 
 .third-section {
@@ -70,6 +100,9 @@ li {
     justify-content: center;
     align-items: center;
     background-color: #e5e7eb;
+    padding: 50px;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .quote {
@@ -82,17 +115,31 @@ li {
     font-size: 36px;
     font-weight: bold;
     color: #1f2937;
+    margin-left: auto;
 }
 
 .fourth-section {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 100px;
     background-color: #3882f6;
     color: #e5e7eb;
+    padding: 40px;
+    border-radius: 10px;
+    margin: 20px;
 }
 
-.button {
+.bottom-statement {
+    display: flex;
+    flex-direction: column;
+}
+
+.action {
+    
+}
+
+.button-2 {
     background-color: #3882f6;
     color: #e5e7eb;
 }
@@ -102,4 +149,5 @@ li {
     justify-content: center;
     align-items: center;
     color: #e5e7eb;
+    padding: 20px;
 }
